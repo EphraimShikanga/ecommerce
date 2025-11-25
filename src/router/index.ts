@@ -1,8 +1,8 @@
-import {createRouter, createWebHistory} from 'vue-router';
+import {createRouter, createWebHashHistory} from 'vue-router';
 import {useAuthStore} from '@/stores/auth';
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
         {
             path: '/',
@@ -70,6 +70,11 @@ const router = createRouter({
             path: '/settings',
             component: () => import('@/layouts/DashboardLayout.vue'),
             meta: {requiresAuth: true},
+        },
+        {
+            path: '/:pathMatch(.*)*',
+            name: 'NotFound',
+            component: () => import('@/pages/NotFound.vue'),
         }
     ],
 });
