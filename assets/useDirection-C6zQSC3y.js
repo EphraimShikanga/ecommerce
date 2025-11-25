@@ -1,0 +1,1 @@
+import{i}from"./Presence-BOlNR8lw.js";import{t as o,c as n}from"./index-Bxg717nH.js";function s(t){return t==null}function c(t){const r=i({dir:o("ltr")});return n(()=>t?.value||r.dir?.value||"ltr")}export{s as i,c as u};
