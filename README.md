@@ -11,7 +11,6 @@ A modern, full-featured product management dashboard built with Vue 3, TypeScrip
 - **Pagination** - Efficient data loading with customizable page sizes
 - **Product Details** - Comprehensive product view with reviews and ratings
 - **Responsive Design** - Works seamlessly on desktop and mobile devices
-- **Dark Mode Support** - Built-in dark theme support
 - **Toast Notifications** - User-friendly feedback for all actions
 - **Category Color Coding** - Consistent color-coded categories with localStorage persistence
 
